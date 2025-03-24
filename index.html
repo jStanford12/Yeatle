@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Yeatle</title>
+        <meta name="description" content="A game where you guess the Yeat song from a 5-second snippet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Yeatle</h1>
+        <button id="play-button">Play Snippet</button>
+        <audio id="audio-snippet" src="audio/Smooktober.mp3"></audio>
+        <form id="guess-form">
+            <input type="text" id="guess-input" placeholder="Enter your guess here">
+            <button type="submit">Submit Guess</button>
+        </form>
+        <p id="result"></p>
+        <div id="guess-history"></div>
+        
+        <script src="script.js" async defer></script>
+    </body>
+</html>
